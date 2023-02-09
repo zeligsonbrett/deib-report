@@ -410,6 +410,8 @@ width: 100%;
   padding: 5%;
   text-align: center;
   padding-top: 0;
+  
+  text-align: left;
 }
 
 .credit-heading{
@@ -417,6 +419,15 @@ width: 100%;
   padding-bottom: 15px;
   color: #9f037d;
   font-size: 2rem;
+}
+
+.goal{
+  text-align: left;
+  font-size: 3em;
+}
+
+.goal-head-text{
+  font-size: 1.2em;
 }
 
 .credits ol{

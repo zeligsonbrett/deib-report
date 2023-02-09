@@ -414,6 +414,9 @@ width: 100%;
 
 .credit-heading{
   text-align: center;
+  padding-bottom: 15px;
+  color: #9f037d;
+  font-size: 2rem;
 }
 
 .credits ol{
@@ -428,9 +431,6 @@ width: 100%;
 .credits p strong {
   display: inline-block;
   padding-top: 5%;
-  padding-bottom: 15px;
-  color: #9f037d;
-  font-size: 2rem;
   text-align: center;
 }
 

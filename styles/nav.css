@@ -24,7 +24,7 @@
 #top-nav a:focus {
   /* font-weight: 600; */ /* Become bold on hover of nav link */
   /* text-decoration: underline; Underline on hover of nav link */
-  color: #ef62d1;
+  color: #9f037d;
   transition: ease 0.5s;
 
 }
@@ -54,7 +54,7 @@
   color:white !important;
   padding: 5px 8px 5px 8px;
   border-radius: 8px;
-  background-color: #ef62d1;
+  background-color: #9f037d;
 }
 
 .menu-icon {
@@ -88,7 +88,7 @@
   }
 
   #top-nav.expand .nav-links {
-    height: 75px;
+    height: 105px;
   }
 }
 

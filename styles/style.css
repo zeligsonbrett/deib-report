@@ -37,7 +37,7 @@ body {
 
 .mobileTitle .page-nav a:hover{
   text-decoration: none;
-  color: #ef62d1;
+  color: #9f037d;
   text-shadow: none;
 }
 
@@ -70,11 +70,11 @@ body {
 
 .page-nav a:hover,
 .page-nav a:focus {
-  text-shadow: -1.5px 1.5px 0px #ef62d1;
+  text-shadow: -1.5px 1.5px 0px #9f037d;
 }
 .page-nav .white-nav:hover,
 .page-nav .white-nav:focus {
-  text-shadow: -1.5px 1.5px 0px #c60f18, -2px 2px 10px white;
+  text-shadow: -1.5px 1.5px 0px #ff69df, -2px 2px 10px white;
   transition: ease 0.4s;
 }
 /*
@@ -104,8 +104,19 @@ body {
 }
 
 .backToTop:hover{
-  background-color: #7a272b;
+  background-color: #60134f;
   transition: ease 0.3s;
+}
+
+#diversity{
+  margin-top: -40px;
+}
+
+@media screen and (min-width: 1000px){
+  #diversity{
+    margin-top:  0;
+    padding-top: 70px;
+  }
 }
 
 .skyscraper-ads{
@@ -191,7 +202,7 @@ browser window really skinny */
 
   height: 100vh;
   /* background-image: url(https://assets.dailyprincetonian.com/projects.dailyprincetonian.com/frosh-survey-25/nassau-cupola.png); */
-  background-image: url(https://assets.dailyprincetonian.com/projects.dailyprincetonian.com/froshsurvey-26/nassau+hall.png);
+  background-image: url('https://prince-web-assets.s3.amazonaws.com/projects.dailyprincetonian.com/deib-report/nassau+hall+(1).png');
   background-repeat: no-repeat;
   background-position: center;
 
@@ -345,13 +356,13 @@ width: 100%;
 }
 
 .commentary a{
-  color: #ef62d1;
+  color: #9f037d;
   text-decoration: none;
 }
 
 .intro-text a{
 
-  color: #ef62d1;
+  color: #9f037d;
   text-decoration: none;
 
 }
@@ -396,13 +407,35 @@ width: 100%;
 }
 
 .credits {
-  padding-bottom: 5%;
+  padding: 5%;
   text-align: center;
+  padding-top: 0;
+}
+
+.credit-heading{
+  text-align: center;
+}
+
+.credits ol{
+  text-align: left;
+}
+
+.credits ul{
+  margin-left: 5%;
+  font-size: 0.8em;
 }
 
 .credits p strong {
   display: inline-block;
   padding-top: 5%;
+  padding-bottom: 15px;
+  color: #9f037d;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.credits p{
+  text-align: center;
 }
 
 #placeholder {
